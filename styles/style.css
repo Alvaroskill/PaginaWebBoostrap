@@ -1,0 +1,15 @@
+/*esta hoja de estilo es para combinar el css de bootstrap y ampliar y personalizar todas las clases*/
+
+
+.bg-yellow{
+    background-color: rgb(241, 204, 1);
+}
+
+.amarillo {
+  background-color: rgb(241, 204, 1);
+}
+
+body {
+  font-family: 'Quintessential', cursive;
+  text-align: justify;
+}

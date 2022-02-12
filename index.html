@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Verdino's</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+
+</head>
+
+    <!-- Nav responsive sticky -->
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-yellow progress-bar-animated sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Verdino's</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#historia">Historia</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#carta" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cartas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#desayunos">Desayunos</a></li>
+                  <li><a class="dropdown-item" href="#comida">Comidas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#dulces">Dulces</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#ubicacion">Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Eventos proximamente...</a>
+              </li>
+    </nav>
+      <!-- Carrusel de imagenes solo slides -->
+
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-intervale="1000">
+            <img src="./images/1.jfif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-intervale="1000" >
+            <img src="./images/descarga.jfif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-intervale="1000" >
+            <img src="./images/2.jfif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      
+
+        <!-- Hero Section-->
+      <div class="container-fluid" id="historia">
+        <div class="row align-items-start">
+          <div class="col-6">
+            <img src="./images/hero.png" class="w-100" alt="">
+          </div>
+          <div class="col-6 p-0">
+            <img src="./images/hero.jpg" class="w-100" alt="">
+            <div class="d-grid">
+        <!-- Button trigger modal -->
+              <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Bienvenido a Verdino's
+              </button>
+
+        <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Bienvenidos</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ¡Saludos a todo el que haya entrado en nuestra página por primera vez!
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-warning">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="w-100"></div>
+      
+      
+      <!-- History Section-->
+      <hr>
+      <section>
+        <div> 
+          <h1>Historia</h1>
+          <p>Nuestro local surgió, curiosamente, de un charla entre un malagueño y un cordobés. El cordobés trataba de explicarle al malagueño algunas expresiones de su tierra, a lo que, fue una unica expresión la que le llamó tanto la atención que fundó este bar con aquella misteriosa palabra. El comienzo fue algo difícil y el propietario no confiaba en su exito, pero un sabio dijo una vez...</p>
+          <figure>
+            <blockquote class="blockquote">
+              <p>En la vida algunas veces se gana, otras veces se aprende.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              John Maxwell
+            </figcaption>
+          </figure>
+          <p>Con eso en mente, fundado en 1945 y hasta la actualidad, este local ha sido un lugar de grandes encuentros entre amigos, familiares y vecinos. Como no, aprovechando los avances tecnológicos, nos decidimos expandir en la red formando nuestra primera página web.</p>
+        </div>
+      </section>
+
+
+      <!-- Card Section-->
+      <hr>
+    <section id="carta">
+      <h1 class="pb-2">Cartas</h1>
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col-sm-4">
+            <div class="card" id="desayunos">
+              <img src="./images/desayuno.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Desayunos</h5>
+                <p class="card-text">Empieza una buena mañana con nuestros desayunos</p>
+                <a href="desayunos.html" class="btn btn-primary">Carta</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" id="comida">
+              <img src="./images/Carta.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Comidas</h5>
+                <p class="card-text">Sacia esa hambre tan voraz con nuestras comidas</p>
+                <a href="comidas.html" class="btn btn-primary">Carta</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" id="dulces">
+              <img src="./images/postres.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dulces</h5>
+                <p class="card-text">Mantén tu nivel de azúcar, con nuestros dulces caseros </p>
+                <a href="dulces.html" class="btn btn-primary">Carta</a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <hr>
+    <section>
+      <h1 id="ubicacion" class="pt-3">Ubicación</h1>
+      <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+        <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792.483701724377!2d-4.767808270767672!3d37.391373998739425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d42df70f77519%3A0xd774efc5b7909153!2sWinet%20Puente%20Genil!5e0!3m2!1ses!2ses!4v1644690069632!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+    <hr>
+
+      <!-- fin del nav responsive -->
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="https://twitter.com/EpicLinero" class="nav-link px-2 text-muted">Twitter</a></li>
+            <li class="nav-item"><a href="https://github.com/Alvaroskill" class="nav-link px-2 text-muted">Github</a></li>
+          </ul>
+          <p class="text-center text-muted">&copy; 2021 Verdino, Inc</p>
+        </footer>
+      </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
